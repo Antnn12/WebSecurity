@@ -73,7 +73,6 @@ namespace WebSecurity.Controllers
             }
             return View(messageEntity);
         }
-        //Test
 
         // GET: Message/Edit/5
         public async Task<IActionResult> Edit(int? id)
